@@ -40,7 +40,7 @@ public class EmbeddingLayouts extends Application {
         
         grid.getChildren().addAll(nameLabel, nameInput, passLabel, passInput, loginButton);
         
-        Scene scene = new Scene(grid, 200, 300 );
+        Scene scene = new Scene(grid,  300, 300 );
         primaryStage.setScene(scene);
         
        
